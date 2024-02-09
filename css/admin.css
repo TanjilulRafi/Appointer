@@ -1,0 +1,93 @@
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem 1rem;
+    z-index: 1000;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(49, 147, 233);
+}
+
+.header .logo{
+    color: rgb(125, 212, 243);
+    font-size: 1.5rem;
+
+}
+
+.header .navbar a, .header .navbar .dropdown .btn{
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.header .navbar a:hover{
+    color: rgb(125, 212, 243);
+}
+
+
+.container_r{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+nav{
+    background: rgb(71, 206, 255);
+    height: 100vh;
+    text-decoration: none;
+}
+.side_navbar{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.side_navbar span{
+    color: rgb(79, 208, 255);
+    margin: 1rem 3rem;
+    font-size: 11px;
+}
+.side_navbar a{
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+.links{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.links a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.side_navbar a:hover{
+    background: rgb(235, 235, 235);
+}
+.side_navbar .active{
+    border-left: 2px solid rgb(100, 100, 100);
+}
+
+.custab{
+    margin: 5rem 0 5rem 0;
+    margin-right: 50rem; 
+    
+}
+
+.custom-form {
+    width: 60%;
+    margin: 0 auto;
+}
